@@ -1,0 +1,32 @@
+{
+  "name": "galaxy",
+  "version": "1.0.0",
+  "description": "a d(app) for evrything",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"node server.js\" \" node node_modules/react-scripts/scripts/start.js\"",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "author": "baadjis",
+  "license": "ISC",
+  "dependencies": {
+    "@pusher/chatkit-client": "^1.4.1",
+    "@pusher/chatkit-server": "^1.1.0",
+    "chatkit": "0.0.1-security",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "ipfs-api": "^26.1.2",
+    "particlesjs": "^2.2.3",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-particles-js": "^2.5.1",
+    "truffle-contract": "^4.0.13",
+    "web3": "^1.0.0-beta.37"
+  },
+  "devDependencies": {
+    "react-scripts": "^1.0.10"
+  }
+}
