@@ -22,7 +22,7 @@
     "particlesjs": "^2.2.3",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-particles-js": "^2.5.1",
+    "react-particles-js": "^2.7.0",
     "truffle-contract": "^4.0.13",
     "web3": "^1.0.0-beta.37"
   },

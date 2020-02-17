@@ -212,7 +212,7 @@ export default class Datastorage extends React.Component {
           <tbody>
               {this.state.datajson.map( function(nextItem,j) {
                   return ( <tr key={nextItem.datahash}>
-                      <td><a href={`https://127.0.0.1:3000/ipfs/${nextItem.datahash}`}>{nextItem.dataname}</a></td>
+                    <td><a href={`https://127.0.0.1:3000/ipfs/${nextItem.datahash}`}>{nextItem.dataname}</a></td>
                     <td>{nextItem.datatype}</td>
                     <td>{nextItem.datasize}</td>
                     <td>{nextItem.datadate}</td>
